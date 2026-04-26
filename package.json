@@ -1,0 +1,20 @@
+{
+  "name": "ejercicioepam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "scripts": {
+  "cucumber": "cucumber-js --tags @smoke"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "@types/chai": "^5.2.3",
+    "chai": "^6.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
