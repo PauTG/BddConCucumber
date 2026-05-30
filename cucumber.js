@@ -3,6 +3,9 @@ module.exports = {
     require: ["cucumber/step-definitions/**/*.ts"],
     requireModule: ["ts-node/register"],
     paths: ["cucumber/features/**/*.feature"],
-    format: ["progress"]
+    format: [
+      "progress",
+      "junit:reports/results.xml"
+    ]
   }
 };
