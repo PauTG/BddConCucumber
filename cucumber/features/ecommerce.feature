@@ -1,3 +1,4 @@
+@ui
 Feature: E-commerce core functionality
 
   @regression @registration
